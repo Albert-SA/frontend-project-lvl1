@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "src": "src/index.js",
+  "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "files": [
     "dist"
