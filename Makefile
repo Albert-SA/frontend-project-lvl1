@@ -4,7 +4,9 @@ start:
         npx node bin/brain-games.js
         npx node bin/brain-even.js
         npx node bin/brain-calc.js
-       
+        npx node bin/brain-gcd.js
+        npx node bin/brain-progression.js
+        npx node bin/brain-prime.js
 publish:
 	npm publish --dry-run
 
