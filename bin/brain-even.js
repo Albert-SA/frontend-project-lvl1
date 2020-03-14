@@ -1,9 +1,6 @@
 #!/usr/bin/env node
 
-import answer from '../src/indexeven.js';
+import gamesEngine from '../src/games/indexeven.js';
 
-console.log('Welcome to the Brain Games!');
-
-
-answer();
+gamesEngine();
 

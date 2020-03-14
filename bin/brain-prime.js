@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
-import prime from '../src/indexprime.js';
+import gamesEngine from '../src/games/indexprime.js';
 
-console.log('Welcome to the Brain Games!');
+gamesEngine();
 
-
-prime();
